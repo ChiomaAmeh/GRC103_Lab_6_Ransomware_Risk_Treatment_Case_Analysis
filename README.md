@@ -1,8 +1,11 @@
-# GRC103 Lab 6 — Ransomware Risk Treatment: Case Analysis and Management Decisions
+# GRC103 Lab 6 Ransomware Risk Treatment: Case Analysis and Management Decisions
 
 **Student:** Chioma Ameh
+
 **Registration Number:** C11/26/CGRCE/17567
+
 **Course:** GRC103
+
 **Assessment Date:** November 7, 2026
 
 ## Overview
@@ -43,20 +46,20 @@ reviewed 01/12/2025; accessed 10 Nov 2026).
 |---|---|
 | Initial and revised risk registers | `evidence/01_Initial_Risk_Register.pdf`, `evidence/04_Revised_Risk_Register.pdf` (also tabs 1 & 4 of the xlsx) |
 | Treatment selection table and budget | `evidence/02_Treatment_Selection_and_Budget.pdf` (also tab 2 of the xlsx) |
-| Insurance calculations showing formulas | `evidence/03_Insurance_Calculations.pdf` — states the formula (`MIN(MAX(Loss − Deductible, 0), Max Payment)`) alongside the worked numbers; the xlsx (tab 3) has the same calculation as a live, editable formula |
-| Initial and revised decision records | `evidence/06_Decision_Records.pdf` — standalone document separating what was selected/rejected/accepted initially (Task 2) from what changed/was deferred/stayed unchanged after the restoration-test failure (Task 4) |
+| Insurance calculations showing formulas | `evidence/03_Insurance_Calculations.pdf`  states the formula (`MIN(MAX(Loss − Deductible, 0), Max Payment)`) alongside the worked numbers; the xlsx (tab 3) has the same calculation as a live, editable formula |
+| Initial and revised decision records | `evidence/06_Decision_Records.pdf`  standalone document separating what was selected/rejected/accepted initially (Task 2) from what changed/was deferred/stayed unchanged after the restoration-test failure (Task 4) |
 | 30-day treatment plan and board memo | `evidence/05_30Day_Plan.pdf` + `evidence/07_Board_Memo.pdf` |
 
 `Lab6_Report.pdf` contains all six tasks narrated together in one continuous
 document, for a single readable overview; the `evidence/` folder breaks the
-same content into individually-named files matching the required evidence
+same content into individually named files matching the required evidence
 list above, for quick cross-checking.
 
 ## Methodology Notes
 
-- **Risk scoring:** Likelihood (1–5) × Impact (1–5) = Score. Low 1–4 |
-  Medium 5–9 | High 10–16 | Critical 17–25. A Critical risk cannot be
-  formally accepted — it must be treated or escalated.
+- **Risk scoring:** Likelihood (1-5) × Impact (1-5) = Score. Low 1-4 |
+  Medium 5-9 | High 10–16 | Critical 17–25. A Critical risk cannot be
+  formally accepted; it must be treated or escalated.
 - **Budget discipline:** the Year 1 treatment portfolio (Task 2) spends
   exactly the approved $100,000 ceiling across five of the seven available
   options, chosen to cover all four identified risks; the other two options
@@ -64,17 +67,17 @@ list above, for quick cross-checking.
 - **Untested controls are not treated as proven.** This is the central
   lesson of Task 4: the backup/recovery control (Option C) was funded and
   implemented, but its restoration test failed. The risk register was **not**
-  quietly downgraded to reflect the money spent — it was re-scored as
+  quietly downgraded to reflect the money spent;  it was re-scored as
   Critical and escalated to the Board, because a control that has not passed
   its own test provides no verified risk reduction.
 - **Insurance is a financial backstop, not a substitute control.** The
   insurance calculations (Task 3) and the "if excluded" scenario make clear
-  that a policy only transfers *financial* exposure within its own terms —
+  that a policy only transfers *financial* exposure within its own terms -
   it does not reduce the likelihood or operational impact of an incident,
   and accountability for the underlying risk remains with Northbridge.
-- All currency figures, policy terms, staff titles and the $100,000 budget
-  ceiling are fictional, set for this exercise only — no real insurance,
-  staffing, or procurement was transacted.
+- All currency figures, policy terms, staff titles, and the $100,000 budget
+  ceiling are fictional, set for this exercise only  no real insurance,
+  staffing, or procurement were transacted.
 
 ## Spreadsheet Notes
 
